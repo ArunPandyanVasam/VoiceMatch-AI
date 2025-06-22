@@ -15,13 +15,13 @@ def flatten_mfcc(mfcc):
 
 # 7. Load and Extract MFCCs for the Database Audios
 database_audios = [
-    '/home/avasam/Github/VoiceMatch AI/DatabaseVoices/BlackPather.wav',
-    '/home/avasam/Github/VoiceMatch AI/DatabaseVoices/BlackWidow.wav',
-    '/home/avasam/Github/VoiceMatch AI/DatabaseVoices/HarryPotter.wav',
-    '/home/avasam/Github/VoiceMatch AI/DatabaseVoices/IronMan.wav',
-    '/home/avasam/Github/VoiceMatch AI/DatabaseVoices/Leonardo.wav',
-    '/home/avasam/Github/VoiceMatch AI/DatabaseVoices/SpiderMan.wav',
-    '/home/avasam/Github/VoiceMatch AI/DatabaseVoices/TomCruise.wav'
+    '/home/avasam/Github/VoiceMatch-AI/DatabaseVoices/BlackPather.wav',
+    '/home/avasam/Github/VoiceMatch-AI/DatabaseVoices/BlackWidow.wav',
+    '/home/avasam/Github/VoiceMatch-AI/DatabaseVoices/HarryPotter.wav',
+    '/home/avasam/Github/VoiceMatch-AI/DatabaseVoices/IronMan.wav',
+    '/home/avasam/Github/VoiceMatch-AI/DatabaseVoices/Leonardo.wav',
+    '/home/avasam/Github/VoiceMatch-AI/DatabaseVoices/SpiderMan.wav',
+    '/home/avasam/Github/VoiceMatch-AI/DatabaseVoices/TomCruise.wav'
 ]
 
 # 8. Connect to SQLite database (it will create one if it doesn't exist)

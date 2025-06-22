@@ -34,7 +34,7 @@ def pad_or_truncate(arr, target_length):
         return arr[:target_length]
 
 # 5. Path for user audio
-user_audio = '/home/avasam/Github/VoiceMatch AI/userRecording0.wav' 
+user_audio = '/home/avasam/Github/VoiceMatch-AI/userRecording0.wav' 
 mfcc_user = flatten_mfcc(get_mfccValues(user_audio))
 
 # 6. Printing user MFCC Values
